@@ -1,0 +1,36 @@
+.hero{
+    height: 100vh;
+    background: url(images/home-bg-slideshow1.jpg);
+    background-position: top center;
+    background-size: cover;
+
+}
+h1, h5{
+    color: white;
+
+}
+.hero-content {
+    text-align: center;
+    hr{
+        border-color: white;
+        width: 300px;
+    }
+    
+}
+nav{
+    .nav-item{
+        .active{        
+                color: $primary-color !important;           
+        }
+        a{
+            color: white !important;
+        text-transform: uppercase;
+        
+        }
+    }
+ 
+    a:hover{
+        color: $primary-color !important;
+        transition: all 0.3s ease-in-out;
+    }
+}

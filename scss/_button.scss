@@ -1,0 +1,41 @@
+
+.btn-digital{
+    background: $primary-color;
+    color: white;
+    border-width: 4px;
+    padding: 12px 42px;
+    &:hover{
+        background: transparent;
+        color: white;
+        border-color: white;
+        
+    }
+}
+.btn-digital-invert{
+    background: transparent;
+        color: white;
+        border-color: white;
+        border-width: 4px;
+        padding: 12px 42px;
+        margin-left: 50px;
+        &:hover{
+            background: $primary-color;
+            border-color: transparent;
+        }
+}
+.btn-pricing{
+    border-color:$primary-color ;
+    border-radius: 0px;
+    color: $primary-color;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 60px;
+    transition: all 0.4s ease-in-out;
+    margin-top: 20px;
+    text-transform: uppercase; 
+    &:hover{
+        background: $primary-color;
+        border-color: white;
+        color: white;
+    }
+}
